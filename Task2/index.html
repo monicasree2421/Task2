@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task2</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <h2><center>STUDENT REGISTRATION FORM</center></h2>
+      <div class="main">
+      <FORM>
+        <div class="form">
+         <label for="rollno">Student Roll No:</label>
+         <input type="text" id="rollno" name="rollno" required placeholder="Enter Roll No">
+        </div>
+        <div class="form">
+         <label for="name">Student Name:</label>
+         <input type="text" id="name" name="name" required placeholder="Enter Your Name">
+        </div>
+       <div class="form">
+         <label for="dept" id="dept">Student Department:</label>
+         <select id="dept" name="dept" required>
+                <option value="" disabled selected>Select Department</option>
+                <option value="CSE">Computer Science Engineering</option>
+                <option value="ECE">Electronics and Communication Engineering</option>
+                <option value="MECH">Mechanical Engineering</option>
+                <option value="CIVIL">Civil Engineering</option>
+                <option value="IT">Information Technology</option>
+                <option value="AERO">Aeronautical Engineering</option>
+          </select>
+        </div>
+      <div class="form">
+         <label for="10mark">Student 10<sup>th</sup> Mark:</label>
+         <input type="text" id="10mark" name="10mark" required placeholder="Enter 10th Mark">
+      </div>
+      <div class="form">
+         <label for="12mark">Student 12<sup>th</sup> Mark:</label>
+         <input type="text" id="12mark" name="12mark" required placeholder="Enter 12th Mark">
+      </div>
+      <div class="form">
+         <label for="degree">Student Degree Percentage:</label>
+         <input type="text" id="degree" name="degree" required placeholder="Enter Degree Percentage">
+      </div>
+      <div class="btn">
+         <input type="submit" id="submit" value="SUBMIT">
+         <input type="button" id="cancel" value="CANCEL">
+      </div>
+      </FORM>
+    </div>
+  </body>
+</html>

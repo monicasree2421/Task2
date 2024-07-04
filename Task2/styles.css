@@ -1,0 +1,54 @@
+body{
+  font-family:Tahoma (sans-serif),Trebuchet MS (sans-serif);
+  background-image:url(https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=600&h=400&fit=crop&dpr=1);
+  padding: 20px;
+  background-size:cover;
+  
+}
+.form{
+  margin-bottom: 20px;
+}
+h2{
+  color:white;
+  font-size: 25px;
+}
+.main{
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  background-color:;
+  padding:25px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.btn #cancel:hover{
+  background-color: red;
+  border-color: #FF4433;
+}
+.btn #submit:hover{
+  background-color: #00FF00;
+  border-color: #45a049;
+}
+.btn #submit{
+  background-color:lightgreen;
+}
+.btn #cancel{
+  background-color:#FF474C;
+}
+.btn{
+  justify-content: space-between;
+  display:flex;
+}
+.form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color:white;
+}
+.form input,select{
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 16px;
+}
